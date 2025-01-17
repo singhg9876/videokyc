@@ -1,0 +1,90 @@
+.App {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form > div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-field,
+  .select-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: border 0.3s;
+  }
+  
+  .input-field:focus,
+  .select-field:focus {
+    border: 1px solid #007bff;
+    outline: none;
+  }
+  
+  .confirm-button,
+  .record-button,
+  .submit-button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .confirm-button {
+    background-color: #28a745;
+  }
+  
+  .record-button {
+    background-color: #007bff;
+  }
+  
+  .submit-button {
+    background-color: #17a2b8;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .preview {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  video {
+    width: 100%;
+    border-radius: 5px;
+  }
+  body{
+    background-color: #0d0d0d;
+  }
+  label{
+    margin-top: 10px;
+  }
