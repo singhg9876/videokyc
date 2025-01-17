@@ -7,7 +7,7 @@ const { log } = require('console');
 const { connectToDatabase, sql } = require('./database'); // Import database connection
 let file_name;
 const app = express();
-const PORT = 5000;
+const PORT = 4000;
 app.use(cors());
 app.use('/videos', express.static(path.join(__dirname, 'uploads')));
 
