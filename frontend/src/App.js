@@ -4,6 +4,7 @@ import "./App.css";
 
 function App() {
   const [customerId, setCustomerId] = useState("");
+  const [usdtAddress, setUsdtAddress] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -123,6 +124,7 @@ function App() {
     formData.append("customerId", customerId);
     formData.append("name", name); //name is appended
     formData.append("email", email);
+    formData.append("usdtAddress", usdtAddress); //phone is appended
     formData.append("phone", phone); //phone is appended
     formData.append("idType", idType);
     formData.append("idNumber", idNumber)
@@ -264,11 +266,17 @@ function App() {
                 ))}
               </select>
             </div>  
-            <div className="col-sm-12">
-            <label>Upload Identity Proof Images <span style={{ color: "red" }}>*</span>:</label>
-            <input style={{width:'100%'}}  className="form-control"  type="file" multiple name="file1" id="file1"/>
-              
+            <div className="col-sm-12 col-lg-6">
+              <label>Upload Identity Proof Images <span style={{ color: "red" }}>*</span>:</label>
+              <input onChange={handleFileChange} style={{ width: '100%' }} className="form-control" type="file" multiple name="file1" id="file1" />
+              <small style={{ fontSize: "12px" }}>Both Front & Back Side. Maximum File Size should be less than 5MB</small>
             </div>
+            <div class="col-lg-6 col-sm-12" style={{display: "inline"}}>
+              <label>USDT Address <span style={{color: "red"}}>*</span>:</label>
+              <input class="input-field" onChange={(e) => setUsdtAddress(e.target.value)} required data-listener-added_db9b6be3="true"/>
+                {/* <small class="error">This field is required.</small> */}
+            </div>
+
           </div>
         </form>
 
@@ -288,7 +296,38 @@ function App() {
 
 
         <div style={{ backgroundColor: 'rgba(226, 222, 222, 0.43)', padding: '20px', borderRadius: '20px' }}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos qui distinctio iusto reiciendis, magnam perferendis repellat fugit amet itaque doloribus illo ad, quasi, necessitatibus accusamus enim odio numquam odit maxime?</p>
+          <p>Respected <br/>
+MD and CEO of EXPERT INFRA COMPANY,  <br/>
+Ananthula Satish Goud Garu,  <br/>
+
+Sir,  <br/>
+My name is --------------------  <br/>
+Father’s Name --------------------  <br/>
+Village --------------------  <br/>
+District --------------------  <br/>
+State --------------------  <br/>
+My EIM ID --------------------  <br/><br/>
+
+I had invested an amount of Rs. -------------------- (in words: --------------------) on the date ----------, month --------, year --------, in the EXPERT INFRA Company to purchase EXPERT INFRA MONEY TOKENS amounting to -------------------- (in words: --------------------).  <br/>
+
+Today, due to my personal emergencies, I have decided to sell all the EXPERT INFRA MONEY TOKENS in my possession back to you with my full consent.  <br/>
+
+I kindly request you to return the total value of the EXPERT INFRA MONEY TOKENS I invested, which amounts to -------------------- (in words: --------------------) including interest, in the form of USDT, and credit the same to my WALLET.  <br/>
+
+I am pleased to inform you that the amount of -------------------- USDT (in words: -------------------- USDT) has been credited to my WALLET ADDRESS -------------------- on the date ----------, month --------, year --------.  <br/>
+
+From this day onwards, I declare that I have no further association with the MD and CEO of EXPERT INFRA Company, Satish Goud Garu, or with any employees and staff of EXPERT INFRA. Additionally, I confirm that I have no business transactions or dealings with the company.  <br/>
+
+I hereby state, in this video, that starting from today, i.e., date --------, month --------, year --------, I will not be involved in any form of misconduct, legal or illegal issues, either directly or indirectly, related to EXPERT INFRA Company, its management, or its employees.  <br/>
+
+I swear in the presence of God that if I am found to be the cause of any such issues in the future, I give my complete consent to take legal action against me, and I authorize you with full rights to do so.  <br/>
+
+I declare that all the details mentioned above are provided by me with full consciousness and understanding.  <br/>
+
+Finally, I extend my heartfelt gratitude to Ananthula Satish Goud Garu for your cooperation and conclude this video.  <br/><br/>
+
+Sincerely,  <br/>
+XXXXXXXXX</p>
           <button onClick={listenInEnglish} className="btn btn-light">Listen In English</button>
           <button onClick={listenInTelugu} className="btn mx-2 btn-light" >తెలుగులో వినండి</button>
         </div>
