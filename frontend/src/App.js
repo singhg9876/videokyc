@@ -328,9 +328,55 @@ Finally, I extend my heartfelt gratitude to Ananthula Satish Goud Garu for your 
 
 Sincerely,  <br/>
 XXXXXXXXX</p>
-          <button onClick={listenInEnglish} className="btn btn-light">Listen In English</button>
-          <button onClick={listenInTelugu} className="btn mx-2 btn-light" >తెలుగులో వినండి</button>
+          // <button onClick={listenInEnglish} className="btn btn-light">Listen In English</button>
+          // <button onClick={listenInTelugu} className="btn mx-2 btn-light" >తెలుగులో వినండి</button>
         </div>
+                  <br/><br/>
+        <div style={{ backgroundColor: 'rgba(226, 222, 222, 0.43)', padding: '20px', borderRadius: '20px' }}>
+          <p>గౌరవనీయులైన <br/>
+            EXPERT INFRA COMPANY<br/>
+            MD మరియు CEO అయినా అనంతుల సతీష్ గౌడ్ గారికి నా హృదయపూర్వక విన్నపం<br/>
+
+            అయ్యా ,<br/>
+            నా పేరు --------------------<br/>
+            తండ్రి పేరు ---------------------<br/>
+            నా ఊరు ---------------------<br/>
+            జిల్లా -----------------------<br/>
+            రాష్ట్రం --------------- మరియు<br/>
+            నా EIM ID --------------------<br/>
+            నేను తేదీ ---------- నెల -------- సంవత్సరం -------- న EXPERT INFRA కంపెనీ నందు రూపాయలు -------------- అక్షరముల ------------------ రూపాయలు వెచ్చించి EXPERT INFRA MONEY  TOKEN లు ---------------------------
+            అక్షరముల -------------------- కొనుక్కున్నాను.<br/>
+
+            ఈ రోజు నా అత్యవసరాల  నిమిత్తం నా దగ్గర ఉన్న మొత్తం EXPERT INFRA MONEY TOKEN లను నా సమ్మతిన తిరిగి నేను  మీకు అమ్మినాను
+            అందుకు గాను మీరు నాయందు దయతలచి నేను వెచ్చించిన మొత్తం  EXPERT INFRA TOKENS విలువ -----------------అక్షరముల ---------- USDT లలో తిరిగి వడ్డీతో సహా మొత్తం
+            విలువ -----------
+            అక్షరముల -----------------నా యొక్క WALLET నందు జమపరిచినందున ఆనందముతో మీకు (సతీష్ గౌడ్ గారికి)
+            కృతజ్ఞతలను తెలుపుకుంటున్నాను
+
+            మరియు<br/>
+            నాకు ---------------(USDT) లు<br/>
+            అక్షరములా --------------------<br/>
+            USDT లు  నా WALLET<br/>
+            ADDRESS ----------------లో తేదీ --------- నెల ----------సంవత్సరం --------------- న జమ అయినవి ,ముట్టినవి అని
+            మీకు తెలియపరుస్తున్నాను మరియు
+
+            ఇకనుంచి నాకు  EXPERT INFRA కంపెనీ MD మరియు CEO అయినా సతీష్ గౌడ్ గారికి మరియు EXPERT INFRA లోని ఉద్యోగస్తులకు మరియు పనివారికి ఎటువని సంభందం లేదు మరియు ఎటువంటి వ్యాపార లావాదేవీలు లేవని ఈ వీడియో సమక్షం గా  తెలియపరుస్తున్నాను
+
+            ముఖ్యముగా ఈ రోజు నుంచి అనగా తేదీ-------- నెల ------- సంవత్సరం -----------------నేను  EXPERT INFRA కంపెనీ మీదగాని EXPERT INFRA కంపెనీ యాజమాన్యం మీద గాని , ఉద్యోగస్తుల మీద గాని ఎటువంటి దౌర్జన్యానికి ,  చట్టపరమైన (LEGAL , ILLEGAL ) సమస్యలకు ప్రత్యక్షం గా గాని పరోక్షంగా గాని పాలుపడబోనని భగవంతుని సాక్షిగా ప్రమాణం చేసి మీకు విన్నవించుకుంటున్నాను .
+
+            ఒకవేళ నేను పైన తెలిపిన సమస్యలకు కారణమైతే నామీద చట్టపరమైన చర్యలు తీసుకోవచ్చని మీకు నా సమ్మతిన పూర్తి అధికారాన్ని ఇస్తున్నాను అని తెలియపరుస్తున్నాను .
+
+            నేను తెలిపిన ఈ వివరములన్ని నేను పూర్తి స్పృహలో ఉండి తెలియపరిచినవే<br/><br/>
+
+            మరియు<br/>
+            అనంతుల సతీష్ గౌడ్ గారికి హృదయపూర్వకంగా కృతఙ్ఞతలు తెలుపుకుంటూ ఈ వీడియో ను<br/>
+            ముగిస్తున్నాను<br/>
+            ఇట్లు మీ<br/>
+            XXXXXXXXX</p>
+          {/* <button onClick={listenInEnglish} className="btn btn-light">Listen In English</button>
+          <button onClick={listenInTelugu} className="btn mx-2 btn-light" >తెలుగులో వినండి</button> */}
+        </div>
+
         <div className="preview">
           <h3>{isRecording ? "Recording..." : "Preview"}</h3>
           <video ref={videoRef} autoPlay muted style={{ backgroundColor: 'black' }} />
